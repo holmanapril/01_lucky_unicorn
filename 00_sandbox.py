@@ -9,3 +9,6 @@ while name.lower() != "xxx":
 
 print()
 print("We are done!")
+
+
+print("I am a chicken")
