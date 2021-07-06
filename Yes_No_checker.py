@@ -22,5 +22,5 @@ while played_before != "xxx":
 
     else:
         print("Please enter Yes or No")
-        played_before = input("Have you played before?")
-        played_before = played_before.strip().lower()
+        played_before = input("Have you played before?").strip().lower()
+
