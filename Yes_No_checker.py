@@ -2,8 +2,7 @@ played_before = ""
 while played_before != "xxx":
 
     # Ask the user if they have played before
-    played_before = input("Have you played before?")
-    played_before = played_before.strip().lower()
+    played_before = input("Have you played before?").strip().lower()
 
     # If they say yes, output "Program continues"
     if played_before == "yes":
