@@ -10,10 +10,20 @@ def yes_no(question):
 
         elif response == "no" or response == "n":
             response = "no"
+            instructions()
             return response
 
         else:
             print("Please answer yes or no")
+
+
+def instructions():
+    print("**** How to Play *****")
+    print()
+    print("The rules of the game go here")
+    print()
+    return""
+
 
 # Main routine goes here...
 played_before = yes_no("Have you played the game before?")
