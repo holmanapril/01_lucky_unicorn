@@ -15,6 +15,7 @@ def yes_no(question):
         else:
             print("Please answer yes or no")
 
+
 # Main routine goes here...
 played_before = yes_no("Have you played the game before?")
 print("You chose {}".format(played_before))
