@@ -7,7 +7,7 @@ while not valid:
     if 0 < how_much <= 10:
         print("You have asked to play with ${}".format(how_much))
     else:
-        print("error")
-        print("Please enter a number between 1 and 10")
+        print(error)
+
 
 
