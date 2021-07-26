@@ -2,7 +2,7 @@
 def yes_no(question):
     valid = False
     while not valid:
-        response = input(question).lower()
+        response = input(question).strip().lower()
 
         if response == "yes" or response == "y":
             response = "yes"
