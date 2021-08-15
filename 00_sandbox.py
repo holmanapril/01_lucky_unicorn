@@ -64,7 +64,7 @@ def lucky_unicorn_greeting():
 
 def unicorn_tokens():
     unicorn_token = "Congratulations you got a Unicorn "
-    unicorn_sides = "!" * 3
+    sides = "!" * 3
 
     unicorn_token = "{} {} {}".format(unicorn_sides, unicorn_token, unicorn_sides)
 
