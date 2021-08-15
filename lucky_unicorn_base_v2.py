@@ -72,9 +72,8 @@ print()
 
 # Ask user how much they want to play with
 how_much = num_check("How much would you like to play with? ", 0, 10)
-
 balance = how_much
-
+starting_balance = how_much
 rounds_played = 0
 
 play_again = input("Press <Enter> to play").lower()
@@ -106,13 +105,15 @@ while play_again == "":
             chosen = "zebra"
             decoration("You got a Zebra", "z")
             balance -= 0.5
-    print("Token:{} , Balance = ${}".format(chosen, balance))
+    print("Token:{} , Balance = ${:.2f}".format(chosen, balance))
     if balance < 1:
         play_again = "xxx"
         print("Sorry you have run out of money")
     else:
         play_again = input("Press Enter to play again or xxx to quit")
 
+print()
+print("Starting Balance: ${:.2f}".format(starting_balance))
 print()
 print("Final Balance: ${:.2f}".format(balance))
 print()
